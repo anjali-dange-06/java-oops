@@ -1,4 +1,5 @@
-package oops;
+package OOPS;
+
 /* 
  *for this even if u are accessing in same 
 package or different package the object

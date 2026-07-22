@@ -1,4 +1,14 @@
-package oops;
+
+// Static methods can be called using the class name or an object.
+//  Non-static (instance) methods can be called only using an object.
+//  A static method cannot directly access non-static variables or methods.
+//  A static method can access only static variables and static methods directly.
+//  To access non-static members inside a static method, create an object.
+//  A non-static method can directly access both static and non-static members.
+//  Non-static variables have separate copies for each object.
+//  this keyword can be used only inside non-static methods and constructors.
+//  Static methods belong to the class, whereas non-static methods belong to objects.
+package OOPS;
 public class MethodAccessing {
 	static String cname;
 	String name;
@@ -16,7 +26,6 @@ public class MethodAccessing {
 	this.name=name;
 	this.age=age;
 	this.salary=salary;
-	this.cname=cname;
 	getdata();
 	}
 	void getdata() {
@@ -47,3 +56,4 @@ public class MethodAccessing {
 	m2.cname="Google";
 	}
 }
+

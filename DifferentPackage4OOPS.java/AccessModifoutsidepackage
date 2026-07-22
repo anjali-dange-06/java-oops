@@ -1,6 +1,6 @@
 //this different package i have made to just 
 //study access modifiers
-package packageforAccessModifiers;
+package DifferentPackage4OOPS;
 
 //In protected e have to make the object of 
 //child class only if u have accessed in child class

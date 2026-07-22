@@ -1,7 +1,7 @@
-package oops;
+package OOPS;
 public class AccessModifiers2 {
 	AccessModifiers2(){
-	
+
 	}
 	public static void main(String[] args) {
 		AccessModifiers1 a1=new AccessModifiers1();  

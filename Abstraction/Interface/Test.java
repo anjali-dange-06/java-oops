@@ -3,14 +3,14 @@ package Interface;
 //interface can contains only abstract method till java 8 version
 //interface can contains static ,default,and private method from java 9
 //interface can not contains instance method and instance variable
-//instance can not contains constructor
+//interface can not contains constructor
 //we can not create the object of interface
 //class can not extends interface
 //class can implements interface
-//we override the method of interface into Test class
+//we override the method of interface into Demo class
 public interface Test {
 /*
- * Test(){
+ Test(){
          //no constructor in interface	
          }
  */
@@ -32,12 +32,14 @@ public interface Test {
     String name="anjali";//public static final
    void login();//this  is abstract method compiler will write
                  //automatically public abstract before to this
-   abstract void registration();
+   public abstract void registration();
     public static void main(String[] args) {
   //Test t1=new Test();//we can't create object of interface  	
     System.out.println(Test.name);//because by default its static no
-                              //so we can access it via class name
+                             //so we can access it via class name
    Test.food();
+   System.out.println(Test.salary);
+   //Test.m1();
     Demo.m4();
     //Test.m4(); not possible by interface
     }
